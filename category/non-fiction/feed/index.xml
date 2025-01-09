@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Non Fiction &#8211; Adviti</title>
+	<atom:link href="https://advitisingh1406.github.io/adviti-blog/category/non-fiction/feed/" rel="self" type="application/rss+xml" />
+	<link>https://advitisingh1406.github.io/adviti-blog/</link>
+	<description>I am 8 years old and I write Fiction &#38; Non-Fiction</description>
+	<lastBuildDate>Thu, 09 Jan 2025 17:04:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+	<item>
+		<title>Anne Frank, a little girl full of hope and happiness</title>
+		<link>https://advitisingh1406.github.io/adviti-blog/anne-frank-diary-of-a-young-girl/</link>
+		
+		<dc:creator><![CDATA[Adviti]]></dc:creator>
+		<pubDate>Thu, 09 Jan 2025 02:45:05 +0000</pubDate>
+				<category><![CDATA[Non Fiction]]></category>
+		<guid isPermaLink="false">https://advitisingh1406.github.io/adviti-blog/?p=69</guid>
+
+					<description><![CDATA[Anne Frank was a Jewish girl. She was born in Frankfurt on June 12, 1929. She had 4 members in her family (including her). Her mom Edith frank, her dad Otto frank, and her older sister Margot. Some things she loves to do are playing hide and seek, ice skating, and going to the movies. [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
