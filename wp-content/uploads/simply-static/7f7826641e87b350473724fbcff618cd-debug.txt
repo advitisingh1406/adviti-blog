@@ -1,0 +1,746 @@
+[2025-01-09 03:46:54] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-01-09 03:46:54] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2025-01-09 03:46:54] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-01-09 03:46:55] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-01-09 03:46:55] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-01-09 03:46:55] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-01-09 03:46:55] [class-ss-setup-task.php:33] Creating archive directory: /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/
+[2025-01-09 03:46:55] [class-ss-setup-task.php:72] Adding origin URL to queue: http://adviti-blog.static/
+[2025-01-09 03:46:55] [class-ss-setup-task.php:143] File /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html exists; adding to queue as: http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html
+[2025-01-09 03:46:55] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-01-09 03:46:55] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:46:55] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:46:55] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2025-01-09 03:46:55] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/
+[2025-01-09 03:46:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2025-01-09 03:46:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:46:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46af124f7-lHLtwJ.tmp
+[2025-01-09 03:46:55] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/?simply_static_page=1
+[2025-01-09 03:46:55] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/?simply_static_page=1
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:103] Filesize: 50827 bytes
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46af124f7-lHLtwJ.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/index.html
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:00] [class-ss-page.php:119] Checking Content Identical:5880f85995e28703c6cef28ff0ff27084a80a7cd===. Value: FALSE
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html
+[2025-01-09 03:47:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b4490d2-RRr36x.tmp
+[2025-01-09 03:47:00] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html?simply_static_page=2
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html?simply_static_page=2
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b4490d2-RRr36x.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.html
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:158] Adding 1 URLs to the queue
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:00] [class-ss-page.php:119] Checking Content Identical:f0eff728b29ee9f53d1d55b3f09986b9472368f0===. Value: FALSE
+[2025-01-09 03:47:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2025-01-09 03:47:00] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-09 03:47:00] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:47:00] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:69] Total pages: 23; Pages remaining: 21
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/anne-frank-diary-of-a-young-girl/
+[2025-01-09 03:47:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 23
+[2025-01-09 03:47:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b44c3e3-fanNUG.tmp
+[2025-01-09 03:47:00] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/anne-frank-diary-of-a-young-girl/?simply_static_page=3
+[2025-01-09 03:47:00] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/anne-frank-diary-of-a-young-girl/?simply_static_page=3
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:103] Filesize: 61038 bytes
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:233] New filename for static page: anne-frank-diary-of-a-young-girl/index.html
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b44c3e3-fanNUG.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/anne-frank-diary-of-a-young-girl/index.html
+[2025-01-09 03:47:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:01] [class-ss-fetch-urls-task.php:158] Adding 27 URLs to the queue
+[2025-01-09 03:47:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:01] [class-ss-page.php:119] Checking Content Identical:b819ba89b65e5984a4fe20fb78b154d4c09f71f0===. Value: FALSE
+[2025-01-09 03:47:01] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/luciana-and-the-bullies/
+[2025-01-09 03:47:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
+[2025-01-09 03:47:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b5c22e6-nYTaI9.tmp
+[2025-01-09 03:47:01] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/luciana-and-the-bullies/?simply_static_page=4
+[2025-01-09 03:47:01] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/luciana-and-the-bullies/?simply_static_page=4
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:103] Filesize: 60507 bytes
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:233] New filename for static page: luciana-and-the-bullies/index.html
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b5c22e6-nYTaI9.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/luciana-and-the-bullies/index.html
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:02] [class-ss-page.php:119] Checking Content Identical:9e020c6f29534619ffb74d6e3a8ff71533d80c29===. Value: FALSE
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/the-lemonade-stand/
+[2025-01-09 03:47:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b631c77-pEOT6Q.tmp
+[2025-01-09 03:47:02] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/the-lemonade-stand/?simply_static_page=5
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/the-lemonade-stand/?simply_static_page=5
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:103] Filesize: 58236 bytes
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:233] New filename for static page: the-lemonade-stand/index.html
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b631c77-pEOT6Q.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/the-lemonade-stand/index.html
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:02] [class-ss-page.php:119] Checking Content Identical:fc41a95470936d013033d770c322b6ff7ba8b822===. Value: FALSE
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/martha-and-the-evil-witch/
+[2025-01-09 03:47:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
+[2025-01-09 03:47:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b695a13-1HyFu5.tmp
+[2025-01-09 03:47:02] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/martha-and-the-evil-witch/?simply_static_page=6
+[2025-01-09 03:47:02] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/martha-and-the-evil-witch/?simply_static_page=6
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:103] Filesize: 60145 bytes
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:233] New filename for static page: martha-and-the-evil-witch/index.html
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b695a13-1HyFu5.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/martha-and-the-evil-witch/index.html
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:03] [class-ss-page.php:119] Checking Content Identical:4152ca656cc40e25616e96def9f05e378b708194===. Value: FALSE
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/the-wizard-the-tricky-fairy/
+[2025-01-09 03:47:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b736a99-nTlWRH.tmp
+[2025-01-09 03:47:03] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/the-wizard-the-tricky-fairy/?simply_static_page=7
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/the-wizard-the-tricky-fairy/?simply_static_page=7
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:103] Filesize: 58806 bytes
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:233] New filename for static page: the-wizard-the-tricky-fairy/index.html
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b736a99-nTlWRH.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/the-wizard-the-tricky-fairy/index.html
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:03] [class-ss-page.php:119] Checking Content Identical:b472125891499ac6964474154d39e2c2dace7c46===. Value: FALSE
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/feed/
+[2025-01-09 03:47:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 23
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b799fc8-QdknD1.tmp
+[2025-01-09 03:47:03] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/feed/?simply_static_page=8
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/feed/?simply_static_page=8
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:103] Filesize: 7297 bytes
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:233] New filename for static page: feed/index.xml
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b799fc8-QdknD1.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:158] Adding 16 URLs to the queue
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:03] [class-ss-page.php:119] Checking Content Identical:eddd40d04b1c9299173d4f1bef6a7256dd907b32===. Value: FALSE
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/comments/feed/
+[2025-01-09 03:47:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 23
+[2025-01-09 03:47:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b7e4082-U36NTK.tmp
+[2025-01-09 03:47:03] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/comments/feed/?simply_static_page=9
+[2025-01-09 03:47:03] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/comments/feed/?simply_static_page=9
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 734 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: comments/feed/index.xml
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b7e4082-U36NTK.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/comments/feed/index.xml
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:e7996c62bb2bf03138e0f17852d1d4c2d3b20302===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/style.css
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b835da1-0k0m4u.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/style.css?simply_static_page=10
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/style.css?simply_static_page=10
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 1128 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/style.css
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b835da1-0k0m4u.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/style.css
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:4a4508a6c4672ec11d487de028aa5e1b07742536===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/xmlrpc.php
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/xmlrpc.php
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_200.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b838015-FOihpl.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_200.ttf?simply_static_page=13
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_200.ttf?simply_static_page=13
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 117008 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/newsreader_normal_200.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b838015-FOihpl.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/newsreader_normal_200.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:73f213bbadcd7d95532d16235982061245c3334b===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b839f8f-XglTzy.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_300.ttf?simply_static_page=14
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_normal_300.ttf?simply_static_page=14
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 117500 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/newsreader_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b839f8f-XglTzy.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/newsreader_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:46a691c3030f901e541beb5a7e7341f11d53cc8c===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_200.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b83bc5d-aOFXbV.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_200.ttf?simply_static_page=15
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_200.ttf?simply_static_page=15
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 128720 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/newsreader_italic_200.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b83bc5d-aOFXbV.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/newsreader_italic_200.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:a1bed281d3ba29372b355a96fbf997c431a0bc9b===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_300.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b83d952-JKlHbT.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_300.ttf?simply_static_page=16
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/newsreader_italic_300.ttf?simply_static_page=16
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 128848 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/newsreader_italic_300.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b83d952-JKlHbT.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/newsreader_italic_300.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:b4e5a99b7ee3f0953034933082d8643c408cc6af===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b83f5f8-pmiuzm.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_300.ttf?simply_static_page=17
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_300.ttf?simply_static_page=17
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 310420 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b83f5f8-pmiuzm.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_300.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:dd9ec1ae67dd85143bacf7a3cb37e9f0ac979843===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_400.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b841ddc-xUUaXY.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_400.ttf?simply_static_page=18
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_400.ttf?simply_static_page=18
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 309828 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_400.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b841ddc-xUUaXY.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_400.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:7237d9cf55f177702066a28a4dde1e4c7e8ab576===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_500.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8445b4-i50jqj.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_500.ttf?simply_static_page=19
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_500.ttf?simply_static_page=19
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 314712 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_500.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8445b4-i50jqj.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_500.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:a418a8ba73bbcfa8c131c426ab836d78457afa9b===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_600.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b846dfc-dLjumh.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_600.ttf?simply_static_page=20
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_600.ttf?simply_static_page=20
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 315756 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_600.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b846dfc-dLjumh.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_600.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:431007da316de60d85174aeec9b8389b5c73e7d6===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_700.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8496c2-G1sPvh.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_700.ttf?simply_static_page=21
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_700.ttf?simply_static_page=21
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 316100 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_700.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8496c2-G1sPvh.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_700.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:48747b7a60086f97af0d373febcbd1f1bee87f17===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_800.ttf
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b84bf57-hiy4ub.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_800.ttf?simply_static_page=22
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/themes/fictionary/assets/fonts/inter_normal_800.ttf?simply_static_page=22
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 316716 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/fictionary/assets/fonts/inter_normal_800.ttf
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b84bf57-hiy4ub.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/themes/fictionary/assets/fonts/inter_normal_800.ttf
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:bff772be6bca9895c6fdcd57e5d5be9a47f2e058===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 23
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b84e80e-cE5MGw.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml?simply_static_page=23
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml?simply_static_page=23
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 6527 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b84e80e-cE5MGw.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/feed/index.xml
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:eddd40d04b1c9299173d4f1bef6a7256dd907b32===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 23 pages/files
+[2025-01-09 03:47:04] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-09 03:47:04] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:47:04] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:69] Total pages: 44; Pages remaining: 21
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/category/uncategorized/
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 44
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b850a25-QLQvHF.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/category/uncategorized/?simply_static_page=24
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/category/uncategorized/?simply_static_page=24
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 47432 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: category/uncategorized/index.html
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b850a25-QLQvHF.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/category/uncategorized/index.html
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 24 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:d1ad69c8017a50750af4da9d42e4c0ffcafdd997===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1.webp
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 44
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8b306a-NDfSkd.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1.webp?simply_static_page=25
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1.webp?simply_static_page=25
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 40146 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/ospqedbiq47c1.webp
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8b306a-NDfSkd.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/ospqedbiq47c1.webp
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:2ecbb669e3f567022715c342efa98c37a8bf2006===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1-300x285.webp
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 44
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8b4bbd-3YLtxs.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1-300x285.webp?simply_static_page=26
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/ospqedbiq47c1-300x285.webp?simply_static_page=26
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 11934 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/ospqedbiq47c1-300x285.webp
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8b4bbd-3YLtxs.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/ospqedbiq47c1-300x285.webp
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:2c5cb45bc6a6a0e59e03f7978c39d9e53f0e5b37===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-includes/js/comment-reply.min.js
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 44
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8b61e0-rhZI15.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/comment-reply.min.js
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8b61e0-rhZI15.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-includes/js/comment-reply.min.js
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:04] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/anne-frank-diary-of-a-young-girl/feed/
+[2025-01-09 03:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 44
+[2025-01-09 03:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b8b7754-bmGvpz.tmp
+[2025-01-09 03:47:04] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/anne-frank-diary-of-a-young-girl/feed/?simply_static_page=28
+[2025-01-09 03:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/anne-frank-diary-of-a-young-girl/feed/?simply_static_page=28
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:103] Filesize: 839 bytes
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:233] New filename for static page: anne-frank-diary-of-a-young-girl/feed/index.xml
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b8b7754-bmGvpz.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/anne-frank-diary-of-a-young-girl/feed/index.xml
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:05] [class-ss-page.php:119] Checking Content Identical:04b1ec0bc63d1212addab461f289b00f35103bbe===. Value: FALSE
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-includes/blocks/cover/style.min.css
+[2025-01-09 03:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 44
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b909d1f-kY0HFM.tmp
+[2025-01-09 03:47:05] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-includes/blocks/cover/style.min.css?simply_static_page=29
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-includes/blocks/cover/style.min.css?simply_static_page=29
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:103] Filesize: 18099 bytes
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/cover/style.min.css
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b909d1f-kY0HFM.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-includes/blocks/cover/style.min.css
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:05] [class-ss-page.php:119] Checking Content Identical:c66e72e25362483017fa1c49bcae6e4087fe47c7===. Value: FALSE
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-includes/blocks/image/style.min.css
+[2025-01-09 03:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 44
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b90b8d5-HMVz80.tmp
+[2025-01-09 03:47:05] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-includes/blocks/image/style.min.css?simply_static_page=30
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-includes/blocks/image/style.min.css?simply_static_page=30
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:103] Filesize: 6708 bytes
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/image/style.min.css
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b90b8d5-HMVz80.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-includes/blocks/image/style.min.css
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:05] [class-ss-page.php:119] Checking Content Identical:3ab2fa86c058d67e8324a0f8ba3eedd5e011b41a===. Value: FALSE
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/69
+[2025-01-09 03:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 44
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/69
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/oembed/1.0/embed
+[2025-01-09 03:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 44
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/oembed/1.0/embed
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/luciana-and-the-bullies/feed/
+[2025-01-09 03:47:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 44
+[2025-01-09 03:47:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46b90e2c7-AsXClF.tmp
+[2025-01-09 03:47:05] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/luciana-and-the-bullies/feed/?simply_static_page=33
+[2025-01-09 03:47:05] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/luciana-and-the-bullies/feed/?simply_static_page=33
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:103] Filesize: 792 bytes
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:233] New filename for static page: luciana-and-the-bullies/feed/index.xml
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46b90e2c7-AsXClF.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/luciana-and-the-bullies/feed/index.xml
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:06] [class-ss-page.php:119] Checking Content Identical:c0d118dbc022f149869c9e89f4b6c454f4f151b1===. Value: FALSE
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/67
+[2025-01-09 03:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 44
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/67
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/the-lemonade-stand/feed/
+[2025-01-09 03:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 44
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46ba2c3dd-F3bITZ.tmp
+[2025-01-09 03:47:06] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/the-lemonade-stand/feed/?simply_static_page=35
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/the-lemonade-stand/feed/?simply_static_page=35
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:103] Filesize: 781 bytes
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:233] New filename for static page: the-lemonade-stand/feed/index.xml
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46ba2c3dd-F3bITZ.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/the-lemonade-stand/feed/index.xml
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:06] [class-ss-page.php:119] Checking Content Identical:5550ba44df8b59e71993db8f727ea22be109eb61===. Value: FALSE
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/65
+[2025-01-09 03:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 44
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/65
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/martin-and-the-evil-king/
+[2025-01-09 03:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 44
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46ba74ff0-V1iI2V.tmp
+[2025-01-09 03:47:06] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/martin-and-the-evil-king/?simply_static_page=37
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/martin-and-the-evil-king/?simply_static_page=37
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:103] Filesize: 60065 bytes
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:233] New filename for static page: martin-and-the-evil-king/index.html
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46ba74ff0-V1iI2V.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/martin-and-the-evil-king/index.html
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:158] Adding 25 URLs to the queue
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:06] [class-ss-page.php:119] Checking Content Identical:273b0b17899f3349eedd2614de62a1f97574f329===. Value: FALSE
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/martha-and-the-evil-witch/feed/
+[2025-01-09 03:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 44
+[2025-01-09 03:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bad8bbc-fOKR33.tmp
+[2025-01-09 03:47:06] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/martha-and-the-evil-witch/feed/?simply_static_page=38
+[2025-01-09 03:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/martha-and-the-evil-witch/feed/?simply_static_page=38
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:103] Filesize: 800 bytes
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:233] New filename for static page: martha-and-the-evil-witch/feed/index.xml
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bad8bbc-fOKR33.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/martha-and-the-evil-witch/feed/index.xml
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:07] [class-ss-page.php:119] Checking Content Identical:90b6524035ffdee2e71dcae37599a08e5550d4bd===. Value: FALSE
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/63
+[2025-01-09 03:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 44
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/63
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/mina-and-the-mean-dragon/
+[2025-01-09 03:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 44
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bb2b040-uDJIHE.tmp
+[2025-01-09 03:47:07] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/mina-and-the-mean-dragon/?simply_static_page=40
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/mina-and-the-mean-dragon/?simply_static_page=40
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:103] Filesize: 59652 bytes
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:233] New filename for static page: mina-and-the-mean-dragon/index.html
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bb2b040-uDJIHE.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/mina-and-the-mean-dragon/index.html
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:158] Adding 31 URLs to the queue
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:07] [class-ss-page.php:119] Checking Content Identical:0a61f2a985e52346fdcff907c7e2915c10ffba90===. Value: FALSE
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/the-wizard-the-tricky-fairy/feed/
+[2025-01-09 03:47:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 44
+[2025-01-09 03:47:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bb91539-bixVhs.tmp
+[2025-01-09 03:47:07] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/the-wizard-the-tricky-fairy/feed/?simply_static_page=41
+[2025-01-09 03:47:07] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/the-wizard-the-tricky-fairy/feed/?simply_static_page=41
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:103] Filesize: 809 bytes
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:233] New filename for static page: the-wizard-the-tricky-fairy/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bb91539-bixVhs.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/the-wizard-the-tricky-fairy/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:08] [class-ss-page.php:119] Checking Content Identical:ed568158e761575ec42b4adff1024c888f995e28===. Value: FALSE
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/56
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 44
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/56
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/martin-and-the-evil-king/feed/
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 44
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bc13272-pB0Cfa.tmp
+[2025-01-09 03:47:08] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/martin-and-the-evil-king/feed/?simply_static_page=43
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/martin-and-the-evil-king/feed/?simply_static_page=43
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:103] Filesize: 795 bytes
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:233] New filename for static page: martin-and-the-evil-king/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bc13272-pB0Cfa.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/martin-and-the-evil-king/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:08] [class-ss-page.php:119] Checking Content Identical:d01a666ee1cd4ac7ec020f5e25ca4f735d7eeb41===. Value: FALSE
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/mina-and-the-mean-dragon/feed/
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 44
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bc59366-xy04Zx.tmp
+[2025-01-09 03:47:08] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/mina-and-the-mean-dragon/feed/?simply_static_page=44
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/mina-and-the-mean-dragon/feed/?simply_static_page=44
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:103] Filesize: 795 bytes
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:233] New filename for static page: mina-and-the-mean-dragon/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bc59366-xy04Zx.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/mina-and-the-mean-dragon/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:08] [class-ss-page.php:119] Checking Content Identical:91fbf8b65ed9e6fd7d9f63148225587948cab449===. Value: FALSE
+[2025-01-09 03:47:08] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 23 of 44 pages/files
+[2025-01-09 03:47:08] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-09 03:47:08] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:47:08] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:69] Total pages: 55; Pages remaining: 11
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/category/uncategorized/feed/
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 55
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bc9fdec-MWnK07.tmp
+[2025-01-09 03:47:08] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/category/uncategorized/feed/?simply_static_page=45
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/category/uncategorized/feed/?simply_static_page=45
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:103] Filesize: 6441 bytes
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:233] New filename for static page: category/uncategorized/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bc9fdec-MWnK07.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/category/uncategorized/feed/index.xml
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:158] Adding 14 URLs to the queue
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:08] [class-ss-page.php:119] Checking Content Identical:4d8786b55a31b04361bd7fd454e12824c1fbc7c6===. Value: FALSE
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/categories/1
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 55
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/categories/1
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/61
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 55
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/61
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/category/fiction/
+[2025-01-09 03:47:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 55
+[2025-01-09 03:47:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bce9450-ae2tFK.tmp
+[2025-01-09 03:47:08] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/category/fiction/?simply_static_page=48
+[2025-01-09 03:47:08] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/category/fiction/?simply_static_page=48
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 41652 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: category/fiction/index.html
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bce9450-ae2tFK.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/category/fiction/index.html
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:88da75afb620fff7f39de47433423be4efdbb452===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1024x1024.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd53455-TCtnWo.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1024x1024.webp?simply_static_page=49
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1024x1024.webp?simply_static_page=49
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 161966 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1024x1024.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd53455-TCtnWo.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1024x1024.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:1c7111e5cfccab6732ef8d48c132f1e70e630c7d===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-300x300.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd557d7-QvYBpD.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-300x300.webp?simply_static_page=50
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-300x300.webp?simply_static_page=50
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 18472 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-300x300.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd557d7-QvYBpD.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-300x300.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:9177bc6fae40125c79dcc3828b25dc8ad73aba6c===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-150x150.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd56f84-Lt84XY.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-150x150.webp?simply_static_page=51
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-150x150.webp?simply_static_page=51
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 5436 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-150x150.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd56f84-Lt84XY.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-150x150.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:1956ba518f6a009e3f1ebffb9e308986811b09be===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-768x768.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd58298-rjqIj8.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-768x768.webp?simply_static_page=52
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-768x768.webp?simply_static_page=52
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 101346 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-768x768.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd58298-rjqIj8.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-768x768.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:7dd1e38482b906752a2605cd80296af5c7cabf82===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1536x1536.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd59d3d-EJCmuj.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1536x1536.webp?simply_static_page=53
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1536x1536.webp?simply_static_page=53
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 300650 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1536x1536.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd59d3d-EJCmuj.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-1536x1536.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:2e61c5c4528352fd8d5770878a5dac7ffe565b93===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-2048x2048.webp
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd5c300-Ep8WWX.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-2048x2048.webp?simply_static_page=54
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-2048x2048.webp?simply_static_page=54
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 440128 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: 
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-2048x2048.webp
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd5c300-Ep8WWX.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/wp-content/uploads/2025/01/il_fullxfull.4488972880_3h3k-2048x2048.webp
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:49ab22f7aa0f929b059cdb3ae5863d988f18ca65===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/posts/48
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 55
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/posts/48
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 44 of 55 pages/files
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 2
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/category/fiction/feed/
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 57
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bd5fec3-cHxIfJ.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/category/fiction/feed/?simply_static_page=56
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/category/fiction/feed/?simply_static_page=56
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:103] Filesize: 1776 bytes
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:233] New filename for static page: category/fiction/feed/index.xml
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bd5fec3-cHxIfJ.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/category/fiction/feed/index.xml
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-01-09 03:47:09] [class-ss-page.php:119] Checking Content Identical:57edb303bce9de1fe85a502d23ceb6975f784081===. Value: FALSE
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:72] URL: http://adviti-blog.static/wp-json/wp/v2/categories/9
+[2025-01-09 03:47:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 57
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://adviti-blog.static/wp-json/wp/v2/categories/9
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-01-09 03:47:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 55 of 57 pages/files
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-01-09 03:47:09] [class-ss-fetch-urls-task.php:69] Total pages: 57; Pages remaining: 0
+[2025-01-09 03:47:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 57 of 57 pages/files
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2025-01-09 03:47:09] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2025-01-09 03:47:09] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/677f46bda7ac1-RR5nTi.tmp
+[2025-01-09 03:47:09] [class-ss-page-handler.php:38] URL Prepared:http://adviti-blog.static/1736394430?simply_static_page=0
+[2025-01-09 03:47:09] [class-ss-url-fetcher.php:251] Fetching URL: http://adviti-blog.static/1736394430?simply_static_page=0
+[2025-01-09 03:47:10] [class-ss-url-fetcher.php:103] Filesize: 40253 bytes
+[2025-01-09 03:47:10] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-01-09 03:47:10] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-01-09 03:47:10] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/677f46bda7ac1-RR5nTi.tmp to /Users/swatipriya/Local Sites/adviti-blog/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414/404/index.html
+[2025-01-09 03:47:10] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-01-09 03:47:10] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-01-09 03:47:10] [class-ss-page.php:119] Checking Content Identical:0679088e1e356ab84ed0a1f3a6438d8197ab5883===. Value: FALSE
+[2025-01-09 03:47:10] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2025-01-09 03:47:10] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2025-01-09 03:47:10] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2025-01-09 03:47:10] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://adviti-blog.static/wp-content/uploads/simply-static/temp-files/simply-static-1-1736394414.zip">Click here to download</a>
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-01-09 03:47:10] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-01-09 03:47:10] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-01-09 03:47:10] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:16

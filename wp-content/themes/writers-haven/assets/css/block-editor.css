@@ -1,0 +1,4 @@
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container * {
+    justify-content: center !important;
+    align-items: center !important;
+}
